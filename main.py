@@ -3,6 +3,7 @@ from urllib.request import Request
 import datetime
 import json
 
+# oppo r11
 
 def get_statistics(owner, name, headers):
     url = 'https://api.github.com/repos/{owner}/{name}/stats/contributors?page=2&per_page=100'.format(owner=owner,
